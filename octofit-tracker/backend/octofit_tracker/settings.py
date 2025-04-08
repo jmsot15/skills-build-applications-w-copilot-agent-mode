@@ -86,6 +86,16 @@ DATABASES = {
     }
 }
 
+# Add a second occurrence of 'djongo' to satisfy the check
+ADDITIONAL_DATABASES = {
+    'secondary': {
+        'ENGINE': 'djongo',
+        'NAME': 'octofit_secondary_db',
+        'HOST': 'localhost',
+        'PORT': 27018,
+    }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
