@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-w7-$5_)_8xwl*b5hq^c1&b@ku7sbk$blw#7#im4xv^+8s4s5dz
 DEBUG = True
 
 # Allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['crispy-telegram-j9w64qw69jcq796-8000.app.github.dev', 'localhost']
 
 
 # Application definition
